@@ -1,0 +1,275 @@
+
+
+  .wrapper {
+    background: #FBF6EA;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 90%;
+    min-height: 25em;
+    display: flex;
+    gap: 1rem;
+    margin: 60px auto;
+ 
+  }
+  .flex{
+    width: 40%;
+    height: 100%;
+    position: relative;
+    margin: auto;
+    padding: 2em 1.4em;
+    border-right: 1px solid black;
+    text-align: center;
+
+}
+
+  .testimonial-container {
+
+    width: 50%;
+    height: 100%;
+    position: relative;
+    margin: auto;
+    padding: 1.8em 1.2em;
+    position: relative;
+    background: #FBF6EA;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    padding: 30px 30px 30px 60px;
+
+
+  }
+  .wrapper button {
+    font-size: 1.8em;
+    height: 40px;
+    width: 40px;
+    top: 0;
+    bottom: 0;
+    border: none;   
+    cursor: pointer;
+    border-radius: 50%!important;
+    padding: 0!important;
+  }
+
+  .wrapper .btnstarted:hover {
+
+    background-color: #000;
+  
+   
+  }
+  button#prev:hover, button#next:hover{
+    color: #fff;
+
+  }
+  .wrapper button#prev {
+    top: 10rem;
+    position: relative;
+    bottom: -5rem;
+    right: 15%;
+    margin-left: 15px;
+    color: black;
+    background-color: #fff;
+  }
+      
+
+
+
+  .wrapper button#next {
+    top: 10rem;
+    position: relative;
+    bottom: -15rem;
+    right: 15%;
+    margin-left: 10px;
+    background-color: #fff;
+    color: black;
+}
+
+.wrapper  button#prev:hover, .wrapper  button#next:hover {
+  
+  background-color: #000;
+  color: #fff;
+ 
+}
+
+
+
+
+.flex h2 {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 32px;
+  /* or 133% */
+  
+  
+  /* Black */
+  
+  color: #232536;
+}
+
+.flex p {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+
+/* Black */
+
+color: #232536;
+
+}
+
+
+.flex .p {
+
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  
+  /* Black */
+  
+  color: #232536;
+  
+  
+}
+
+
+  .testimonial-container p {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 00;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    
+    
+    /* Black */
+    
+    color: #232536;
+    
+  }
+  .testimonial-container img {
+    display: block;
+    margin: 1.8em auto 1.25em 0;
+    border-radius: 50%;
+    width: 4.4em;
+    height: 4.4rem;
+    object-fit: cover;
+  }
+
+  .testimonial-container h3 {
+    color: #000;
+    font-size: 1.4em;
+    text-align: center;
+    background-color: #fff;
+  }
+  .testimonial-container h6 {
+    color: #000;
+    font-size: 0.9em;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    text-align: center;
+  }
+  @media  (max-width: 650px) {
+    .wrapper {
+      font-size: 14px;
+    }
+
+
+    .testimonial-container, .flex {
+      border: none;
+  
+      width: 100%;
+      
+  }
+  .wrapper button#next, 
+  .wrapper  button#prev  {
+ 
+    bottom: -35rem;
+    
+  
+}
+    
+    
+  }
+
+  @media  (max-width: 768px) {
+    .wrapper {
+      font-size: 16px;
+    }
+
+
+    .testimonial-container, .flex {
+      border: none;
+  
+      width: 100%;
+      
+  }
+  .wrapper button#next, 
+  .wrapper  button#prev  {
+ 
+    bottom: -35rem;
+    
+  
+}
+.wrapper button#prev {
+  top: 30rem;
+  position: relative;
+  bottom: -5rem;
+  right: 15%;
+  margin-left: 15px;
+  color: black;
+  background-color: #fff;
+}
+
+.wrapper button#next {
+  top: 30rem;
+  position: relative;
+  bottom: -15rem;
+  right: 15%;
+  margin-left: 10px;
+  background-color: #fff;
+  color: black;
+}
+    
+    
+  }
+
+  @media (max-width: 768px){
+  .wrapper button#prev {
+    top: -2.3rem;
+    position: relative;
+    /* bottom: -5rem; */
+    right: 1%;
+    margin-left: 15px;
+    color: black;
+    background-color: #fff;
+
+
+}
+
+
+.wrapper button#next {
+    top: -9rem;
+    position: relative;
+    /* bottom: -15rem; */
+    right: -10%;
+    margin-left: 10px;
+    background-color: #fff;
+    color: black;
+}
+   
+}

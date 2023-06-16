@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Home/css/nav.css">
+    <link rel="stylesheet" href="../Home/css/footer.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/blog_post.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <!-- Swiper CSS -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+  <style>
+    /* Google Fonts - Poppins */
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+ 
+    .slide-container {
+      margin: 0 30px;
+      overflow: hidden;
+    }
+    .card {
+      background: #fff;
+      border-radius: 8px;
+    }
+    .card .image-box {
+      height: 300px;
+    }
+    .card .image-box img {
+      width: 100%;
+      height: 100%;
+      border-radius: 8px 8px 0 0;
+    }
+    .card .profile-details {
+      display: block;
+      align-items: center;
+      column-gap: 12px;
+      padding: 15px;
+    }
+    .profile-details .name {
+      font-size: 15px;
+      font-weight: 500;
+    }
+    .profile-details .job {
+      font-size: 12px;
+      font-weight: 500;
+      color: #4d4d4d;
+    }
+
+    .swiper-navBtn {
+      color: #000;
+      height: 50px;
+      width: 50px;
+      transform: translateY(-40%);
+      background: #fff;
+      border-radius: 50%;
+    }
+    .swiper-navBtn::before,
+    .swiper-navBtn::after {
+      font-size: 24px;
+    }
+
+    .swiper-pagination-bullet {
+      background-color: #333;
+    }
+
+    @media screen and (max-width: 768px) {
+      .swiper-navBtn {
+        display: none;
+      }
+    }
+  </style>
+    <title>Blog Post Page</title>
+  
+</head>
+<body>
+        <!-- ============================Nav====================================== -->
+        <header>
+          <a href="" class="logo">{Finsweet</a>
+          <nav class="navbar">
+              <a class="active" href="../Home/home.html">Home</a>
+              <a href="../Blog/blog.html">Blog</a>
+              <a href="">About Us</a>
+              <a href="../Contact/contact.html" class="btn_nav">Contact Us</a>
+            
+  
+          </nav>
+          <div class="icon-menu">
+              <i class="fa-solid fa-bars" ></i>
+          </div>
+  
+        
+          
+      </header>
+         <!-- ==========================END NAV====================================== -->
+
+
+    <!-- ==========================MAIN============================================ -->
+    <main>
+      
+    <section class="blog-post section-header-offset">
+        <div class="blog-post-container container">
+            <div class="blog-post-data">
+                <div class="info_blog">
+                    <div class="coltop">
+                        <div class="image_blog">
+                    
+                             <img src="./img/3.jpg" alt="" width="15px" height="15px">
+                                
+                         </div>
+                        <div class="info_top">
+                          <h3>Lorem ipsum dolor sit amet.</h3>
+                          <p>Lorem ipsum dolor sit amet.</p>
+
+                        </div>
+    
+                    </div>
+              
+                    <h3 class="title blog-post-title"> Step by step chosing to Lorem, ipsum. Is VR the future?</h3>
+                    <div class="article-data">
+                        <i class="fa fa-code" aria-hidden="true"></i>
+                        <h6>Economy</h6>
+                        
+                    </div>
+    
+    
+
+                </div>
+              
+
+                <img src="./img/1.jpg" alt="">
+            </div>
+
+            <div class="container">
+                <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, fugit.</h4>
+
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis eius possimus hic eligendi distinctio rerum incidunt, esse quasi eum molestiae ducimus ipsam quae, aliquid ullam placeat dolorum nulla vero. Quam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente repellat consequatur culpa, repudiandae aut dolores iusto. Rem natus soluta, dolores, ad deleniti, aut dolorem corrupti quasi amet unde delectus hic?
+                </p>
+
+
+                <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, fugit.</h4>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis eius possimus hic eligendi distinctio rerum incidunt, esse quasi eum molestiae ducimus ipsam quae, aliquid ullam placeat dolorum nulla vero. Quam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero quod necessitatibus, aspernatur pariatur asperiores earum quas adipisci veritatis quidem facilis! Nihil veniam quaerat nulla possimus, asperiores vero voluptatum placeat. Eveniet!
+                </p>
+
+                
+            
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis eius possimus hic eligendi distinctio rerum incidunt, esse quasi eum molestiae ducimus ipsam quae, aliquid ullam placeat dolorum nulla vero. Quam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero quod necessitatibus, aspernatur pariatur asperiores earum quas adipisci veritatis quidem facilis! Nihil veniam quaerat nulla possimus, asperiores vero voluptatum placeat. Eveniet!
+                </p>
+
+                <div class="ul_posts">
+                    
+                    <ul>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, ipsa! </li>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, illum!</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, illum.</li>
+                    </ul>
+
+                </div>
+            
+                
+
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis eius possimus hic eligendi distinctio rerum incidunt, esse quasi eum molestiae ducimus ipsam quae, aliquid ullam placeat dolorum nulla vero. Quam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero quod necessitatibus, aspernatur pariatur asperiores earum quas adipisci veritatis quidem facilis! Nihil veniam quaerat nulla possimus, asperiores vero voluptatum placeat. Eveniet!
+                </p>
+                <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, fugit.</h4>
+                
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis eius possimus hic eligendi distinctio rerum incidunt, esse quasi eum molestiae ducimus ipsam quae, aliquid ullam placeat dolorum nulla vero. Quam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero quod necessitatibus, aspernatur pariatur asperiores earum quas adipisci veritatis quidem facilis! Nihil veniam quaerat nulla possimus, asperiores vero voluptatum placeat. Eveniet!
+                </p>
+            </div>
+        </div>
+    </section>
+
+        </section>
+
+        <section>
+            <div class="container swiper">
+                <div class="slide-container">
+                  <div class="card-wrapper swiper-wrapper"></div>
+                </div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </section>
+    </main>
+
+    
+  <footer class="footer-container">
+
+      <div class="max-width-nav">
+        <div class="logo"><a href="">Alicia</a> </div>
+        <ul class="menu">
+          <li><a href="">Home</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Contact us</a></li>
+        </ul>
+    
+      </div>
+    
+      <div class="footer-center">
+        <div class="footer-heading footer-1">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia natus, quod, quam ipsa voluptate nequ.
+              
+            </p>
+        </div>
+      
+            <div class="footer-form">
+             
+              <input type="email" class="email" placeholder="Enter your email">
+              <input type="submit" class="submit" value="Sign Up" name="" id="">
+
+            </div>
+     
+    </div>
+    <div class="footer-center line1">
+      <div class="footer-heading footer-1">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur 
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur 
+          </p>
+      </div>
+    
+          <div class="footer-form footer2">
+            <div class="icons icons1 icons2">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+
+          </div>
+   
+  </div>
+    
+  
+  </footer>
+ 
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./javascript/swiper-bundle.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // Define the JSON data for the cards
+      var jsonData = [
+        {
+          image: "./img_category/c1.jpg",
+          name: "David Cardlos",
+          job: "Full Stack Developer",
+          title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eum, quis praesentium unde voluptatem optio, facere harum mollitia voluptatibus tenetur ut soluta quasi, reprehenderit ullam ipsam cum alias amet. Quos"
+        },
+        {
+          image: "./img_category/c2.jpg",
+          name: "Siliana Ramis",
+          job: "Photographer",
+          title:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eum, quis praesentium unde voluptatem optio, facere harum mollitia voluptatibus tenetur ut soluta quasi, reprehenderit ullam ipsam cum alias amet. Quos."
+        },
+        {
+          image: "./img_category/c3.jpg",
+          name: "Richard Bond",
+          job: "Data Analyst",
+          title:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eum, quis praesentium unde voluptatem optio, facere harum mollitia voluptatibus tenetur ut soluta quasi, reprehenderit ullam ipsam cum alias amet. Quos."
+        },
+        {
+          image: "./img_category/c4.jpg",
+          name: "Priase",
+          job: "App Developer",
+          title:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eum, quis praesentium unde voluptatem optio, facere harum mollitia voluptatibus tenetur ut soluta quasi, reprehenderit ullam ipsam cum alias amet. Quos."
+        },
+        {
+          image: "./img_category/c5.jpg",
+          name: "James Laze",
+          job: "Blogger",
+          title:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eum, quis praesentium unde voluptatem optio, facere harum mollitia voluptatibus tenetur ut soluta quasi, reprehenderit ullam ipsam cum alias amet. Quos."
+        },
+        {
+          image: "./img_category/c6.jpg",
+          name: "James Laze",
+          job: "Blogger",
+          title:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eum, quis praesentium unde voluptatem optio, facere harum mollitia voluptatibus tenetur ut soluta quasi, reprehenderit ullam ipsam cum alias amet. Quos."
+        },
+        {
+          image: "./img_category/c7.jpg",
+          name: "James Laze",
+          job: "Blogger",
+          title:"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eum, quis praesentium unde voluptatem optio, facere harum mollitia voluptatibus tenetur ut soluta quasi, reprehenderit ullam ipsam cum alias amet. Quos."
+        }
+      ];
+
+      // Generate the card HTML dynamically using JSON data
+      var cardWrapper = document.querySelector(".card-wrapper");
+      var cardHtml = "";
+      jsonData.forEach(function(data) {
+        var card = document.createElement("div");
+        card.classList.add("card", "swiper-slide");
+
+        var imageBox = document.createElement("div");
+        imageBox.classList.add("image-box");
+
+        var image = document.createElement("img");
+        image.src = data.image;
+        image.alt = "";
+
+        imageBox.appendChild(image);
+        card.appendChild(imageBox);
+
+        var profileDetails = document.createElement("div");
+        profileDetails.classList.add("profile-details");
+
+        var name = document.createElement("h2");
+        name.classList.add("name");
+        name.textContent = data.name;
+
+        var job = document.createElement("p");
+        job.classList.add("job");
+        job.textContent = data.job;
+
+        var title = document.createElement("p");
+        title.classList.add("title");
+        title.textContent = data.title;
+
+        profileDetails.appendChild(name);
+        profileDetails.appendChild(job);
+        profileDetails.appendChild(title);
+
+        card.appendChild(profileDetails);
+
+        cardWrapper.appendChild(card);
+      });
+
+      // Initialize the swiper after dynamically adding the cards
+      var swiper = new Swiper(".slide-container", {
+        slidesPerView: 4,
+        spaceBetween: 20,
+        sliderPerGroup: 4,
+        loop: true,
+        centerSlide: true,
+        fade: true,
+        grabCursor: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          dynamicBullets: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          520: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 3,
+          },
+          1000: {
+            slidesPerView: 4,
+          },
+        },
+      });
+    });
+  </script>
+    <script src="../Home/javascript/nav.js"></script>
+
+
+
+
+</body>
+</html>

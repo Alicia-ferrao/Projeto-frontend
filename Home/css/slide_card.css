@@ -1,0 +1,147 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.slider-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: 'Sen';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+/* identical to box height, or 133% */
+
+letter-spacing: -2px;
+
+/* Black */
+
+color: #232536;
+}
+.container_cards {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #efefef;
+  max-width: 1400px;
+  width: 100%;
+  padding: 60px 0;
+}
+.slide-container {
+  margin: 0 30px;
+  overflow: hidden;
+}
+.card {
+  background-color: #F4F4F4;;
+  padding: 35px 45px;
+  border-radius: 8px;
+  transition: all .45s ease;
+  text-align: center;
+  color: #232536;
+}
+
+.card:hover {
+  background-color: lightgrey;
+}
+
+.card1 {
+  background-color: #F5EFF9;
+ padding: 35px 45px;
+ border-radius: 8px;
+ transition: all .45s ease;
+}
+.card1:hover {
+  transform: translateY(-8px);
+  cursor: pointer;
+  background-color: #F6CD4B;
+}
+
+
+
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+p{
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+.icons_card1 .fa-brands, .fab {
+  padding: 3px;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #232536;
+  background-color: #F5EFF9;
+  font-weight: 400;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+  color: #592EA9;
+  background-color: none;
+
+}
+.swiper-navBtn {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  transform: translateY(-40%);
+
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 24px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #333;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card .image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  margin-bottom: 5px;
+}
+
+.card p {
+  margin-bottom: 15px;
+}
+
+.card .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-navBtn {
+    display: none;
+  }
+}

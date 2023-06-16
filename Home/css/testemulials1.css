@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  .flex{
+      width: 40%;
+      height: 100%;
+      position: relative;
+      margin: auto;
+      padding: 2em 1.4em;
+      border-right: 1px solid black;
+      text-align: center;
+
+  }
+
+  .wrapper {
+    background: #FBF6EA;
+    position: absolute;
+    width: 100vw;
+    max-width: 90%;
+    min-height: 25em;
+    /* border-radius: 0.6em; */
+    transform: translatex(-50%);
+    left: 50%;
+
+    /* box-shadow: 0 1.8em 3em rgba(1, 17, 39, 0.15); */
+    display: flex;
+    gap: 1rem;
+ 
+  }
+  .testimonial-container {
+
+    width: 80%;
+    height: 100%;
+    position: relative;
+    margin: auto;
+    padding: 1.8em 1.2em;
+    position: relative;
+    background-color: #fff;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    padding: 30px;
+
+
+  }
+  .wrapper button {
+    font-size: 1em;
+    height: 2.2em;
+    width: 2.2em;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    border: none;   
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .wrapper button:hover {
+
+    background-color: #000;
+  
+   
+  }
+  button#prev:hover, button#next:hover{
+    color: #fff;
+
+  }
+
+  button#prev {
+    position: absolute;
+    bottom: -15rem;  
+    right: 8%;
+    margin-left: 10px;
+    
+    color: black;
+   
+}
+
+
+
+  button#next{
+    position: absolute;
+    bottom: -15rem;  
+    right: 5%;
+    margin-left: 10px;
+    
+    color: black;
+}
+
+
+.btn:hover{
+    background-color: blueviolet;
+    color: #fff;
+   
+}
+
+
+  .testimonial-container p {
+    color: #000;
+    /* text-align: center; */
+    font-size: 0.9em;
+    line-height: 2em;
+    letter-spacing: 0.05em;
+  }
+  .testimonial-container img {
+    display: block;
+    margin: 1.8em auto 1.25em 0;
+    border-radius: 50%;
+    width: 4.4em;
+    height: 4.4rem;
+    object-fit: cover;
+  }
+  .testimonial-container h3 {
+    color: #000;
+    font-size: 1em;
+    text-align: center;
+  }
+  .testimonial-container h6 {
+    color: #000;
+    font-size: 0.9em;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    text-align: center;
+  }
+  @media screen and (max-width: 650px) {
+    .wrapper {
+      font-size: 14px;
+    }
+  }
